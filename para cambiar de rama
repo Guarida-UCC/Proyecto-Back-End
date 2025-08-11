@@ -1,0 +1,2 @@
+git chechout -b "nombre de la rama"
+git fetch
