@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CineX</title>
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="logo"><a href="index.html">CineX</a></div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#peliculas">Películas</a></li>
+          <li><a href="about.html">Sobre nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+  <section class="hero" id="hero">
+    <div class="hero-slider" id="hero-slider" aria-hidden="false">
+      
+    </div>
+
+    
+    <div class="hero-overlay">
+      <div class="hero-content" id="hero-content">
+        <h1>Estrenos que no te puedes perder</h1>
+        <p id="hero-sub">Descubre nuevas películas cada vez que recargas la página</p>
+        <a class="btn" href="#peliculas">Ver ahora</a>
+      </div>
+    </div>
+  </section>
+
+  
+  <main id="peliculas" class="movies-section container">
+    <div class="section-header">
+      <h2>Películas destacadas</h2>
+      <p class="muted">Seleccionadas aleatoriamente para darte variedad en cada recarga</p>
+    </div>
+    <div id="movies-grid" class="movies-grid"></div>
+  </main>
+
+  
+  <footer class="footer" id="contacto">
+    <div class="container">
+      <p>&copy; <span id="year"></span> CineX. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>
