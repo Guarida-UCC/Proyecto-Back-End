@@ -1,59 +1,36 @@
-# Proyecto Back-End
+# CineX
 
-Este proyecto es una API back-end desarrollada para gestionar y servir datos de manera eficiente.
+Proyecto web que consume la API de TMDB para mostrar estrenos y películas destacadas.
 
-## Características
+# Funcionalidades
 
-- Arquitectura RESTful
-- Autenticación y autorización
-- Manejo de base de datos
-- Documentación de endpoints
+-Slider dinámico con películas en estreno.
 
-## Requisitos
+-Grid con 12 películas diferentes en cada recarga.
 
-- Node.js >= 18.x
-- npm >= 9.x
-- Base de datos (por ejemplo, MongoDB o PostgreSQL)
+-Página de detalle (movie.html) con poster, título, géneros, duración, idioma y descripción.
 
-## Instalación
+-Página “Sobre nosotros”.
 
-```bash
-git clone https://github.com/tu-usuario/Proyecto-Back-End.git
-cd Proyecto-Back-End
-npm install
-```
+-Diseño responsive con CSS modular.
 
-## Uso
+-Código documentado en app.js y style.css.
 
-```bash
-npm start
-```
+# Estructura
 
-El servidor se ejecutará en `http://localhost:3000`.
+index.html      -> Página principal
+movie.html      -> Detalle de película
+about.html      -> Sobre nosotros
+css/style.css   -> Estilos
+js/app.js       -> Lógica (API, slider, grid, detalle)
 
-## Scripts útiles
 
-- `npm run dev` — Ejecuta el servidor en modo desarrollo
-- `npm test` — Ejecuta los tests
+# Tecnologías
 
-## Estructura del proyecto
+-HTML5
 
-```
-/src
-    /controllers
-    /models
-    /routes
-    /middlewares
-```
+-CSS3 (grid/flexbox, responsive)
 
-## Contribución
+-JavaScript (fetch, DOM)
 
-1. Haz un fork del repositorio
-2. Crea una rama (`git checkout -b feature/nueva-funcionalidad`)
-3. Haz commit de tus cambios
-4. Haz push a tu rama
-5. Abre un Pull Request
-
-## Licencia
-
-MIT
+-TMDB API
